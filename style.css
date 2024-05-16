@@ -1,0 +1,35 @@
+.container {
+  display: block;
+  text-align: center;
+  border: 20px solid;
+  border-radius: 5em;
+  border-color: aqua;
+  margin: 55px 25px 25px 55px;
+  background-color: rgb(28, 202, 193);
+  padding: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.checkingBox label {
+  cursor: pointer;
+}
+.checkingBox input {
+  cursor: pointer;
+}
+button {
+  margin: 10px;
+  margin-bottom: 5px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: midnightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  color: whitesmoke;
+}
+button:hover {
+  cursor: pointer;
+
+  background-color: rgb(93, 93, 196);
+}
+input {
+  width: 40px;
+}
