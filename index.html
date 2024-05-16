@@ -23,12 +23,13 @@
 
         <input class="checkBox" id="symbols" type="checkbox" />
         <label for="symbols">Add Symbols</label><br />
+
+        <input class="inputBox" value="0" type="number" id="length" />
+        <label for="length">Password Length</label><br />
       </div>
-      <input class="inputBox" value="0" type="number" id="length" />
-      <label for="length">Password Length</label><br />
-
-      <button id="btn" onclick="generatePassword()">Generate</button>
-
+      <div style="text-align: center">
+        <button id="btn" onclick="generatePassword()">Generate</button>
+      </div>
       <h3 id="result"></h3>
       <p id="strength"></p>
     </div>

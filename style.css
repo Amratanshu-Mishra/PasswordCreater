@@ -1,21 +1,29 @@
 .container {
   display: block;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 30px;
   text-align: center;
   border: 20px solid;
   border-radius: 5em;
   border-color: aqua;
-  margin: 55px 25px 25px 55px;
+
   background-color: rgb(28, 202, 193);
   padding: 1.2em;
   font-family: Arial, Helvetica, sans-serif;
 }
-.checkingBox label {
+.checkingBox {
+  display: inline-block !important;
+  width: 25%;
   cursor: pointer;
+  display: block;
+  text-align: left;
 }
 .checkingBox input {
   cursor: pointer;
 }
 button {
+  display: inline-block;
   margin: 10px;
   margin-bottom: 5px;
   padding: 20px;
